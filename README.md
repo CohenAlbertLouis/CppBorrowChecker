@@ -23,6 +23,9 @@ Uses custom bc_error to signal borrow violations clearly at the point of failure
 ### Resource Management (RAII)
 Leverages the RAII principle to guarantee deterministic resource lifetime management, proper initialization of resources and exception-safe cleanup operations
 
+### Thread safety
+Use of mutexes to prevent data races in multithreaded environments
+
 ## ✨ Modern C++ Implementation Details
 The project is fully compliant with C++20 standards and utilizes modern language features:
 
