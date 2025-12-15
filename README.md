@@ -61,3 +61,10 @@ int main() {
     return 0;
 }
 ```
+## 🛠 Compilation
+This code can be compiled using any modern C++20 compiler. For example, compilation can be done using Clang:
+
+```bash
+clang++ -std=c++20 example.cpp -o example
+./example
+```
